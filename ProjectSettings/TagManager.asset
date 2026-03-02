@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Enviroments
+  - Water
+  - UI
+  - Entities_H0
+  - Entities_H1
+  - Entities_H2
+  - Entities_H3
+  - Entities_H4
+  - Entities_H5
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Ground_H0
+  - Ground_H1
+  - Ground_H2
+  - Ground_H3
+  - Ground_H4
+  - Ground_H5
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 531248745
+    locked: 0
+  - name: World
+    uniqueID: 4097731457
+    locked: 0
+  - name: Stair
+    uniqueID: 1720809671
+    locked: 0
+  - name: UI
+    uniqueID: 3028833315
+    locked: 0
+  m_RenderingLayers:
+  - Default
