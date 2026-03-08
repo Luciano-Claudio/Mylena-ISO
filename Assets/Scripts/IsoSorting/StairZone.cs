@@ -15,7 +15,7 @@ public class StairZone : MonoBehaviour
         var entity = other.GetComponentInParent<IsoEntityHeight>();
         if (entity == null) return;
         entity.ForceHeight(topHeight);
-        StairWall?.SetActive(true);
+        StairWall?.SetActive(true); // Essa parede é ativada para complementar a ilusão de que o personagem está subindo a escada, fazendo uma layer de parede aparecer na frente do personagem caso ele esteja próximo à borda da escada. Ela é desativada quando o personagem sai da escada, para evitar que fique aparecendo na frente do personagem quando ele estiver longe da borda.
     }
 
     private void OnTriggerStay2D(Collider2D other)
